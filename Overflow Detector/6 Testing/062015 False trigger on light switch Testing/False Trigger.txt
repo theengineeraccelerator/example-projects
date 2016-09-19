@@ -1,0 +1,323 @@
+In Normal
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+button pressed
+State 1
+State 1
+State 1
+State 1
+State 1
+parsing data
+Field: 0 the data is: FF
+Field: 1 the data is: 0
+Field: 2 the data is: 0
+Field: 3 the data is: 0
+Field: 4 the data is: 0
+Field: 5 the data is: 0
+Field: 6 the data is: 0
+Field: 7 the data is: 0
+Field: 8 the data is: 0
+Field: 9 the data is: 0
+Field: 10 the data is: 0
+Field: 11 the data is: 0
+Field: 12 the data is: 0
+in Alarm
+start speaker
+turning light on
+State 2
+State 2
+light off
+State 2
+State 2
+speaker off
+light on
+State 2
+State 2
+State 2
+light off
+State 2
+speaker on
+State 2
+light on
+State 2
+State 2
+State 2
+light off
+State 2
+speaker off
+State 2
+light on
+State 2
+State 2
+State 2
+speaker on
+light off
+State 2
+State 2
+light on
+State 2
+State 2
+State 2
+speaker off
+light off
+State 2
+State 2
+light on
+State 2
+State 2
+button pressed
+alarm acknowledged
+in Alarm acknowledged
+turning speaker off
+turning off timers
+turning light on
+State 3
+State 3
+State 3
+State 3
+State 3
+State 3
+State 3
+State 3
+State 3
+State 3
+State 3
+State 3
+State 3
+State 3
+State 3
+button pressed
+alarm ended
+In Normal
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+parsing data
+Field: 0 the data is: FF
+Field: 1 the data is: 0
+Field: 2 the data is: 0
+Field: 3 the data is: 0
+Field: 4 the data is: 0
+Field: 5 the data is: 0
+Field: 6 the data is: 0
+Field: 7 the data is: 0
+Field: 8 the data is: 0
+Field: 9 the data is: 0
+Field: 10 the data is: 0
+Field: 11 the data is: 0
+Field: 12 the data is: 0
+in Alarm
+start speaker
+turning light on
+State 2
+parsing data
+Field: 0 the data is: FF
+Field: 1 the data is: 0
+Field: 2 the data is: 0
+Field: 3 the data is: 0
+Field: 4 the data is: 0
+Field: 5 the data is: 0
+Field: 6 the data is: 0
+Field: 7 the data is: 0
+Field: 8 the data is: 0
+Field: 9 the data is: 0
+Field: 10 the data is: 0
+Field: 11 the data is: 0
+Field: 12 the data is: 0
+State 2
+light off
+State 2
+State 2
+speaker off
+light on
+State 2
+State 2
+State 2
+light off
+State 2
+speaker on
+State 2
+light on
+State 2
+State 2
+State 2
+light off
+State 2
+speaker off
+State 2
+light on
+State 2
+button pressed
+alarm acknowledged
+in Alarm acknowledged
+turning speaker off
+turning off timers
+turning light on
+State 3
+button pressed
+alarm ended
+In Normal
+State 1
+button pressed
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+button pressed
+State 1
+State 1
+State 1
+State 1
+parsing data
+Field: 0 the data is: FE
+Field: 1 the data is: 0
+Field: 2 the data is: 0
+Field: 3 the data is: 0
+Field: 4 the data is: 0
+Field: 5 the data is: 0
+Field: 6 the data is: 0
+Field: 7 the data is: 0
+Field: 8 the data is: 0
+Field: 9 the data is: 0
+Field: 10 the data is: 0
+Field: 11 the data is: 0
+Field: 12 the data is: 0
+in Alarm
+start speaker
+turning light on
+State 2
+State 2
+light off
+State 2
+State 2
+speaker off
+light on
+State 2
+State 2
+State 2
+light off
+State 2
+speaker on
+State 2
+light on
+State 2
+State 2
+State 2
+light off
+State 2
+button pressed
+alarm acknowledged
+speaker off
+State 3
+in Alarm acknowledged
+turning speaker off
+turning off timers
+turning light on
+State 3
+button pressed
+alarm ended
+In Normal
+State 1
+button pressed
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1
+State 1

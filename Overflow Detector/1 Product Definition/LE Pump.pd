@@ -1,0 +1,151 @@
+||Pump Failure Notifier Definition
+
+>>||Introduction
+    The remodeled kitchen is to far away from the septic tank for a gravity fed
+    system. Therefore a sump pump will be used to pump water from the kitchen to
+    the septic tank. However if the pump ever breaks down there needs to
+    be a way to signal that to people.
+<<
+>>|Conventions
+//: A To-Be-Determined requirement. Color set by the Comments element type
+[ ... ]: Future Feature. Color et by the Identifier element type
+|HEADING : Marks a Heading. Color set by the Keyword element type
+        - : 8 spaces and a dash marks a list. Color set by the Attribute Name element type
+            - :12 spaces and a dash marks a sublist 1. Color set by the Cdata element type 
+                - :16 spaces and a dash marks a sublist 2. Color set by the Entity Reference element type
+                    - :20 spaces and a dash marks a sublist 3. Color set by the Pi Content element Type
+"" : Marks a quote. Inside quotes bracket, pipes, and forward slashes do not have an effect. Color set by the Keyword element time
+================================================================================
+Cell 1     Cell 2 : marks a table. Cell colors alternate and are set by the Regex and Variable element types
+================================================================================
+>> : marks beginning of a fold
+<< : marks the end of a fold
+
+<<
+
+>>|Product Characteristics
+        - Weight: < 1/2ilb
+        - Height (X):  1/2in 
+        - Length (Y): 1in 
+        - Width (Z): 1in
+        - Target Cost: $100 - 200
+        - Product Life Time Target: 30 years
+        - Indoor Operating Temperature: ??
+        - Outdoor Operating Temperature: ??
+<<
+
+|Device: Sensor
+ >>|Pump Failure Detector
+    Characteristics
+        - Will use the overflow outlet as a sense point
+        - Min flow to be detected: sink faucet at full flow
+        - Must survive freezing temperatures up to a week
+    << 
+
+||Device: Notifier
+>> ||Feature List
+    >>|Light Indicator
+    Characteristics
+        - Initial indicator
+        - Must last for life time of the product 
+        - Color: Red
+    <<  
+    >>|Buzzer 
+    Characteristics
+        - Secondary Indicator
+        - Noticeable
+    <<
+    >>|Reset Button
+    Characteristics
+        - SPST
+        - External Accessible
+        - Same size as Light Indicator
+    <<
+    >>|Processing 
+    Characteristics
+        - Handles logic to turn on the light and buzzer
+    <<    
+    >>|Power Brick 
+    Characteristics
+        - Provides power to the Notifier and Sensor
+        - British Standard plug
+        - Internal Power Supply
+        
+    << 
+<<
+>> ||Interface List
+    |Sensor <--> Notifier
+    Characteristics
+        - DC On/Off signal
+        - Provides Power to the sensor 
+<<
+>> |Mechanical
+        - waterproof for out side components
+        - Label reset button as "Reset"
+        - Indoor parts needs to be paintable
+        - Wall Mounted
+<<
+
+||Behavior Definition
+
+>> ||Processes
+>> |Notification
+    Behavior
+        - Immediate notification is not needed
+        - Light should blink at a rate of .5Hz
+        - After a time out secondary signal should sound
+<<
+>> |Secondary Indicator Timer
+    Behavior
+        - This timer turns on when over flow is detected. When it times out the secondary indicator turn on. 
+<<
+<<
+>> ||Product States
+        - NORMAL
+        - ALERT
+        - SECONDARY ALERT
+<<
+
+>> ||Use Cases
+
+    >> |User sees Light Indicator or hears buzzer
+        # User presses Reset Button to turn off indicators
+        # User turns off all water using devices in the kitchen like the faucet or dish washer etc
+        # User contact the family and informs them of the situation
+    <<
+<<
+
+>> ||Detailed Behavior
+
+    >> |Initial State: NORMAL
+        |Overflow water is detected
+        # Turn on Light Indicator
+        # Start Secondary Indicator Timer
+        # got to ALERT State
+    <<
+    
+    >> |Initial State: ALERT
+        |Reset Button is pressed
+        # Turn off Light Indicator
+        # Go to NORMAL State
+        
+        |Secondary Indicator Timer times out
+        # Turn on Buzzer
+        # Go to SECONDARY ALERT
+    <<
+    
+    >>|Initial State: SECONDARY ALERT
+        |Reset Button is pressed
+        # Turn off Light Indicator
+        # Turn off Buzzer
+        # got to NORMAL State
+    <<
+<<
+
+>> |Appendices
+    >> Appendix A: Glossary
+================================================================================
+    Term                          Description                                   
+================================================================================
+    <<
+<<

@@ -1,0 +1,7 @@
+This document descirbes the information needed to EACH bug report. 
+
+
+1) What were the steps leading to the bug. i.e. what were steps you were going through right before the bug appeared
+2) What was the specific behavior of the bug
+3) What was the behavior of the device after the bug appeared
+4) A copy of the serial output from the terminal that covers before and after the appearance of the bug
